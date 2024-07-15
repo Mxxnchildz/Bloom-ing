@@ -1,0 +1,98 @@
+html {
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
+  background-color: #ffe8e0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  z-index: 1000;
+}
+
+header .logo img {
+  position: absolute;
+  margin-top: -15px;
+  padding: 0;
+  margin-left: -60px;
+  margin-right: -60px;
+  width: 6.5rem;
+  height: 1.5rem;
+  pointer-events: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-right: -60px;
+  padding: 0;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: #941e3c;
+}
+
+.s1 {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image:url(/images/intrody.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.btn{
+  font-family: Quicksand, sans-serif;
+  display: square;
+  margin-top: 1rem;
+  background-color: pink;
+  color: black;
+  font-size: 1.7rem;
+  border: none;
+  padding: 10px 7px;
+  text-decoration: none;
+}
+.btn :hover{
+  text-decoration: none;
+  background-color: #973041;
+  color: #fff;
+}
+

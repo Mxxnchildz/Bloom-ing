@@ -1,0 +1,78 @@
+body {
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
+  background-color:#ffe8e0;
+}
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+header .logo img{
+  position: absolute;
+  margin-top: -15px;
+  padding: 0;
+  margin-left: -60px;
+  width: 10rem;
+  height: 2.5rem;
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  margin-right: -60px;
+  padding: 0;
+  justify-content: center;
+}
+nav li {
+  margin: 0 1em;
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+  color: #941e3c;
+}
+.ab{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: center;
+  gap: 1.5rem;
+}
+.mislog img{
+  padding: 40px 20px 10px;
+  border-radius: 0.5rem;
+  width: 35rem;
+}
+.misi h2 {
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 68px;
+}
+.misi p {
+  text-decoration: none;
+  line-height: 2.5;
+  letter-spacing: 1px;
+  font-size: 19px;
+  padding: 10px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 25px;
+}
+
+footer{
+  background-color:#731c24;
+  color: #ffffff;
+  padding: 2rem 9%;
+  text-align: center;
+}
